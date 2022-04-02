@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +14,11 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.3",
-    "gdax": "^0.9.0"
+    "gdax": "^0.9.0",
+    "pino": "^7.9.2",
+    "pino-pretty": "^7.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
