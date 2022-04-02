@@ -9,6 +9,6 @@ exports.get = async(request,response,next)=>{
             return console.dir(error);
         return data;
     }
-   return response = publicClient.getProducts(callback);
+   return response.json(publicClient.getProducts(callback));
 
 }
