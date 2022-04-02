@@ -11,5 +11,5 @@ app.use(express.json());
 
 let PORT = process.env.PORT || 3337;
 
-app.listen(port);
+app.listen(PORT);
 
