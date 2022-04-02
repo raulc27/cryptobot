@@ -1,3 +1,5 @@
+const GDAX = require("gdax");
+
 const publicClient = new GDAX.PublicClient();
 
 exports.get = async(request,response,next)=>{

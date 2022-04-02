@@ -1,5 +1,3 @@
-const GDAX = require("gdax");
-
 const express = require('express');
 const app = express();
 const cors = require('cors');
